@@ -129,8 +129,7 @@ RestartButton.addEventListener("click", () => {
     // Reset snake
     snake.length = 0;
     snake.push(
-        { x: 9, y: 9 },
-        { x: 9, y: 8 }
+        {x: 1, y: 1,}, {x: 1, y: 0},
     );
 
     // Reset state
