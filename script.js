@@ -19,7 +19,7 @@ let IntervalID = null;
 let TimeID =null;
 let food = { x: Math.floor(Math.random() * rows), y: Math.floor(Math.random() * cols) }
 let blocks = [];
-const snake = [{x: 9, y: 9,}, {x: 9, y: 8,}];
+const snake = [{x: 1, y: 1,}, {x: 1, y: 0,}];
 
 localStorage.setItem("HighScore",hs);
 
